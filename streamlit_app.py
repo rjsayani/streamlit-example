@@ -18,9 +18,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-   
-
-class Load():
+   class Load():
     def __init__(self):
         self.Load_filepath = 'C:/Users/2456/Desktop/desktop/Myanmar/Load_profile/Script/'
         self.Appliance_inputs = pd.read_csv(self.Load_filepath+ 'Appliance_ownership.csv',index_col=0)
